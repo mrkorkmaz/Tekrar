@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    
+    
+}
+body
+{
+    /* background-image: url(./1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    text-align: center;
+    border-image: url(./1.jpg);
+    
+}
+#menu
+{
+    border: 10px solid red;
+    background-color: aquamarine;
+    font-size: bold,x-large;
+    
+}
+#but
+{
+    background-color: lightblue;
+
+}
+#pics
+{
+    border: 10px solid yellow;
+    
+
+} 

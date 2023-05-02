@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    background-color: rgb(19, 30, 37);
+  }
+  
+  h1 {
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 48px;
+    color: white;
+    font-family: "Bungee Shade", cursive;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: tan;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  .top-nav a:hover {
+    
+    opacity: 0.5; 
+    color: red;
+  }
+  
+  #about {
+    width: 100%;
+    height: 500px;
+  }
+  #about p {
+    display: inline-block;
+    width: 75%;
+    margin-top: 100px;
+    padding: 3rem;
+    font-size: 3rem;
+    font-family: "Rampart One", cursive;
+    color: blanchedalmond;
+  }
+  
+  #projects {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    min-height: 900px;
+  }
+  .project-header {
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    display: inline;
+  }
+  #projects img {
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  #projects img:hover {
+    opacity: 0.5;
+  }
+  
+  #contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-me {
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    display: inline;
+  }
+  .msg{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 19px;
+  }
+  .bottom-nav a {
+    text-decoration: none;
+    color: bisque;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 10px 10px 0px;
+    display: inline-block;
+  }
+  
+  .bottom-nav a i {
+    padding-right: 4px;
+  }
+  .bottom-nav a:hover {
+    color:orangered;
+  }
+  
+  input,textarea {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid tan;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 50%;
+    outline: 0;
+  }
+  
+  input:focus,textarea:focus {
+    border: 2px solid #cc4949;
+  }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  
+  .btn {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 50%;
+    background: tan;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    opacity: 0.7;
+    font-weight: 900;
+  }
+  .btn:hover::after{
+    content: "   🖅";
+    font-size: 30px;
+  }
+  .btn:hover {
+    opacity: 1;
+    color:orangered;
+  }
+  .topdiv{
+    /* width: 100%; */
+    margin: 15px;
+    text-align: right;
+  }
+  .top-up {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: tan;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  

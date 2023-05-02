@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    /* text-align: justify; */
+    
+}
+body
+{
+    border: 2px solid blue;
+}
+main
+{
+    border: 5px solid lightblue;
+    width: 400px;
+    margin: 10px;
+    /* text-align: center; */
+
+}
+h2
+{
+    text-align: center;
+    color: darkgray;
+
+}
+section
+{
+    /* text-align: center; */
+}
+label
+{
+    margin: 10p x;
+    margin-right: 15px;
+    text-align: left;
+}
+input
+{
+    text-align: right;
+}
